@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="zdobyla_tytul" directorySegmentName="seg_0" id="013111AE-2AF5-D052-D8FD-B927D4F9E780">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 20:59:37 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<sourcePk>B4193CD3-11D0-9471-5EBF-465DC96A7A96</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EC198609-76D4-D2C0-14F4-A96744E2E3DC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5A40D7F8-4064-FA6F-B466-055083431380</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

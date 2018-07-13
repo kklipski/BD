@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2D8C82FE-D50B-4A5F-2108-4515FF9048DF" name="Historyczny_krol_strzelcow">
+<createdBy>kamil</createdBy>
+<createdTime>2018-06-04 13:55:07 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rok" id="E27A328C-6EFA-BCD0-584C-D11B101BB171">
+<createdBy>kamil</createdBy>
+<createdTime>2018-06-04 13:55:27 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_zawodnika" id="66E8AD56-1679-F49B-B797-87CB95A9C7E2">
+<createdBy>kamil</createdBy>
+<createdTime>2018-06-04 13:57:25 UTC</createdTime>
+<generatorID>0CD8255A-96D6-498D-FB4B-5A7BC798FF8C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<referedAttribute>431AB5AB-F029-BFD4-869D-CF922C8C88E9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gole" id="2DECF1C0-D2E4-D845-12D0-2E450A1572D2">
+<createdBy>kamil</createdBy>
+<createdTime>2018-06-04 14:11:50 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="79111E69-03F4-5649-F476-1B9C637E83A4" name="Historyczny_krol_strzelcow PK">
+<createdBy>kamil</createdBy>
+<createdTime>2018-06-04 13:55:31 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E27A328C-6EFA-BCD0-584C-D11B101BB171</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

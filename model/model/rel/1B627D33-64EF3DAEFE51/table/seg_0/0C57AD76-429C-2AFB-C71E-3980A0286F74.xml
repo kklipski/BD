@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C57AD76-429C-2AFB-C71E-3980A0286F74" name="Druzyna">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>EC198609-76D4-D2C0-14F4-A96744E2E3DC</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_druzyny" id="406DFE25-94E9-1450-E9C0-96EA122A7F71">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>2D0FD993-E5CC-AF0B-BB53-C4DBB35D7565</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa" id="AEA4FA0B-901B-0542-B811-D63FE7A32EB4">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>C056C1CF-FF4E-FBB2-26C7-2269277E4D88</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rozegrane_mecze" id="DCCD84AE-D6A4-130B-FB55-FADE92C8483B">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>8DB94D36-1606-542A-0CFE-3712A23C4259</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bramki_strzelone" id="2B8BF1C0-17D5-6C6A-B8DA-8BE41EE2E4AF">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>BB3C6ACE-6B3E-8BDC-4AAF-1E79DAF6F963</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bramki_stracone" id="229A9989-C83C-5642-AE56-5F7FD3A2CDE3">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>AF69E8D3-6DBB-3FD2-5836-9FEC60607301</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="punkty" id="1934BE4B-6356-8E2B-C081-28CF22D4FA68">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>3B7E9A37-8DFD-AD07-6548-EC651786A6B5</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D104041-E7DF-9DEB-50D8-6729B5C61103" name="Druzyna_PK">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>B4193CD3-11D0-9471-5EBF-465DC96A7A96</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="406DFE25-94E9-1450-E9C0-96EA122A7F71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

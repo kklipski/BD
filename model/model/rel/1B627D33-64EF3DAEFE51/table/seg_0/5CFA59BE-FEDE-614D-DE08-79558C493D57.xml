@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5CFA59BE-FEDE-614D-DE08-79558C493D57" name="Zawodnik">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>1D2537AD-54D9-51F6-ECCC-E5FD08C24B94</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_zawodnika" id="F2D60C25-107D-A813-0204-93C2324EC39D">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>431AB5AB-F029-BFD4-869D-CF922C8C88E9</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imie" id="BDD717F9-8B8C-55D3-DD3F-3A11D55E6AB5">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>A614FC38-F4E5-FEC1-A1E4-6EA106BCD94C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwisko" id="57122B4D-118B-DD49-5AAA-713C853AD70C">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>004A9630-7B76-8306-9B24-FF4A4CD47595</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pozycja" id="364ACF5C-F8A3-9626-4DD6-34EF25C28CE0">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>014372F7-4C69-416B-673F-BD546E83BE9B</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numer_koszulki" id="DAC75710-4332-1822-0775-C71A9F30629B">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>A918CCDA-0F8C-BC4A-3A08-433F767A1B75</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="wiek" id="F6F69173-B6A4-AD02-5D7B-560E3430D8B8">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>27E5A166-6470-02E2-32B8-4990FD7985E4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="narodowosc" id="C7CD66B5-E12D-F120-D82E-1E1C7163DE1E">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>6445BDC7-2642-51BD-574E-9CF1B269C05B</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gole" id="198E35E9-777A-0547-5D1B-B8897811B3C3">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>F2A5649D-10D9-AC5B-54F1-53775B03A867</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="asysty" id="A873F163-4E62-6189-D56A-8F8EA6AD8E74">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>B847E543-E994-C5BF-BEBB-47AAF32460A9</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zolte_kartki" id="4BC21404-E7AB-6CF8-0763-5C1359A97C05">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>E4A66C24-5955-9144-3C54-C6D06AD89E28</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="czerwone_kartki" id="5058BE57-DBB6-9263-E7E9-39BF472B050F">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>196ADE81-71A8-1FE8-A873-CC698FBFF71E</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Druzyna_id_druzyny" id="72DBA938-84BD-1CBB-284B-83882A87B652">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>141A8A17-CDEC-DAC7-9110-313518770721</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64CFE08A-8E42-F9C8-FE74-B4EB9C8A8E39" referredColumn="406DFE25-94E9-1450-E9C0-96EA122A7F71"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADEE7FF9-D25F-17A5-027C-E623DCF3AACE" name="Zawodnik_PK">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>F85B2030-25C5-4141-E26D-AAF9CBC7399B</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2D60C25-107D-A813-0204-93C2324EC39D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2984FC4A-7B84-1793-E996-9B81D0CE6D29" name="Zawodnik_Druzyna_FK">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>AE15AE6E-C51C-6241-7DBA-D1224CB4F939</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72DBA938-84BD-1CBB-284B-83882A87B652"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55FD42A7-CDFB-96AC-3FF3-90D66A8CF8B8" name="Historyczny_mistrz">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>5A40D7F8-4064-FA6F-B466-055083431380</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rok" id="7FA0C3AF-BFAF-2EB2-9391-A2180699B6C1">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>F2D3FAF6-78EC-07B7-6C56-5347750FCE27</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Druzyna_id_druzyny" id="83EE23AA-7C5C-B42B-D476-BFE0D43F2811">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>B5DB9F50-1A63-FBC3-D223-7BA8AA130D5A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0193D23E-3017-C8E8-87D5-F5E77797A8F4" referredColumn="406DFE25-94E9-1450-E9C0-96EA122A7F71"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="860832B1-8EFF-658D-76A5-B5737F1E1568" name="Historyczny_mistrz_PK">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>CC2F9987-F8EB-C7DA-304C-D0516E05E78A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FA0C3AF-BFAF-2EB2-9391-A2180699B6C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35E3330C-7D3B-BAED-AD29-FB824A3DFCFE" name="Historyczny_mistrz_Druzyna_FK">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>013111AE-2AF5-D052-D8FD-B927D4F9E780</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83EE23AA-7C5C-B42B-D476-BFE0D43F2811"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

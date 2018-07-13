@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0BE1B025-1FF4-F411-75A6-2DCC99B9E5F7" containerWithKeyObject="5E43F12F-57F9-F096-57BE-C21FA55FB5DC" localFKIndex="B78D293F-613B-0870-F6CF-2677B1D3BF38" name="rozegrala_Mecz_FK">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>0D264EB2-2EE1-555F-6B63-59D5C2CCAE3C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>Mecz</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5CEA9C74-4693-EAC0-47C4-46988FCD479B</referredTableID>
+<keyObject>C1D7950D-9BF8-746D-EFCC-5979D915C0E3</keyObject>
+<referredKeyID>C1D7950D-9BF8-746D-EFCC-5979D915C0E3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nr_meczu</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E43F12F-57F9-F096-57BE-C21FA55FB5DC" name="rozegrala">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Mecz_nr_meczu" id="A446943A-075B-D9E0-B60B-AC503FB719F6">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BE1B025-1FF4-F411-75A6-2DCC99B9E5F7" referredColumn="8AC42850-B4B3-8AFE-811C-31714B56DE90"/>
+</associations>
+</Column>
+<Column name="Druzyna_id_gospodarza" id="48DDE45B-5179-2BF7-F689-FEC68D877CCC">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61802C07-8518-BCEF-9DAC-1C2C3138AD95" referredColumn="406DFE25-94E9-1450-E9C0-96EA122A7F71"/>
+</associations>
+</Column>
+<Column name="Druzyna_id_goscia" id="D4CC5D93-9BA5-3C81-6378-6EDC66CC0684">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-27 19:37:35 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C68CBE2-4700-2BB2-A9C6-091FAEB97562" referredColumn="406DFE25-94E9-1450-E9C0-96EA122A7F71"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48719BC2-B45C-78EB-930C-B79DE4CDF469" name="rozegrala_PK">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48DDE45B-5179-2BF7-F689-FEC68D877CCC"/>
+<colUsage columnID="A446943A-075B-D9E0-B60B-AC503FB719F6"/>
+<colUsage columnID="D4CC5D93-9BA5-3C81-6378-6EDC66CC0684"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4919248-1745-B288-BB61-4C2A65F85D4B" name="rozegrala_Druzyna_FK_1">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>0D264EB2-2EE1-555F-6B63-59D5C2CCAE3C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48DDE45B-5179-2BF7-F689-FEC68D877CCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B78D293F-613B-0870-F6CF-2677B1D3BF38" name="rozegrala_Mecz_FK">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>0D264EB2-2EE1-555F-6B63-59D5C2CCAE3C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A446943A-075B-D9E0-B60B-AC503FB719F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5483AE7-A24A-ACA1-1964-90865530C0AB" name="rozegrala_Druzyna_FK_2">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-27 19:37:35 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4CC5D93-9BA5-3C81-6378-6EDC66CC0684"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5CEA9C74-4693-EAC0-47C4-46988FCD479B" name="Mecz">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>0471F917-4083-6859-6B96-3DB189964F0E</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_meczu" id="8AC42850-B4B3-8AFE-811C-31714B56DE90">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>0D6BE8DE-522F-7D6B-0E26-D474780FDB95</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_rozegrania" id="50FCA6F4-0A21-E672-75AA-7FD22A4BD0C1">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>9AD05526-F34A-D07C-763E-3CF94F899F5E</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gole_gospodarz" id="48DD4F93-409A-0299-A424-2DB82D6568F4">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>5F3698BD-E71D-792B-5A1B-40057E70307C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gole_gosc" id="BB295FB8-11A2-3AAD-10AE-F1EAED85EB9A">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>A6988C7D-6704-A299-C69D-98AEE1873B35</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1D7950D-9BF8-746D-EFCC-5979D915C0E3" name="Mecz_PK">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:16:10 UTC</createdTime>
+<generatorID>1DC3CA99-1D8E-A08D-F5A4-2296488EF48A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AC42850-B4B3-8AFE-811C-31714B56DE90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

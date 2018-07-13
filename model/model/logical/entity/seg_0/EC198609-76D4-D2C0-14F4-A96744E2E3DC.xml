@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EC198609-76D4-D2C0-14F4-A96744E2E3DC" name="Druzyna">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 19:23:11 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_druzyny" id="2D0FD993-E5CC-AF0B-BB53-C4DBB35D7565">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 19:24:03 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa" id="C056C1CF-FF4E-FBB2-26C7-2269277E4D88">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 19:24:46 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rozegrane_mecze" id="8DB94D36-1606-542A-0CFE-3712A23C4259">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 19:29:34 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bramki_strzelone" id="BB3C6ACE-6B3E-8BDC-4AAF-1E79DAF6F963">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 19:30:27 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bramki_stracone" id="AF69E8D3-6DBB-3FD2-5836-9FEC60607301">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 19:30:43 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="punkty" id="3B7E9A37-8DFD-AD07-6548-EC651786A6B5">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 19:30:53 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B4193CD3-11D0-9471-5EBF-465DC96A7A96" name="Druzyna PK">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 19:24:42 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2D0FD993-E5CC-AF0B-BB53-C4DBB35D7565</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

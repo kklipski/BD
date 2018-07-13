@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9770DB2C-574A-0CF6-8C46-B328B83D1928" name="Historyczny_krol_strzelcow">
+<createdBy>kamil</createdBy>
+<createdTime>2018-06-04 13:58:42 UTC</createdTime>
+<generatorID>2D8C82FE-D50B-4A5F-2108-4515FF9048DF</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rok" id="D562A39A-1B8A-B8A4-F32B-68253F15FCDD">
+<createdBy>kamil</createdBy>
+<createdTime>2018-06-04 13:58:42 UTC</createdTime>
+<generatorID>E27A328C-6EFA-BCD0-584C-D11B101BB171</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zawodnik_id_zawodnika" id="D34BCD88-3122-B5D3-75C0-AB176EEF7902">
+<createdBy>kamil</createdBy>
+<createdTime>2018-06-04 13:58:42 UTC</createdTime>
+<generatorID>66E8AD56-1679-F49B-B797-87CB95A9C7E2</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CCDAA076-15A6-6BF2-B1B0-1E9BC197BFB8" referredColumn="F2D60C25-107D-A813-0204-93C2324EC39D"/>
+</associations>
+</Column>
+<Column name="gole" id="C28B6A12-F0ED-719C-5FFD-D658086EAF34">
+<createdBy>kamil</createdBy>
+<createdTime>2018-06-04 14:12:25 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78AA49B7-A0AE-F7C4-7278-C1372B57E367" name="Historyczny_krol_strzelcow_PK">
+<createdBy>kamil</createdBy>
+<createdTime>2018-06-04 13:58:42 UTC</createdTime>
+<generatorID>79111E69-03F4-5649-F476-1B9C637E83A4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D562A39A-1B8A-B8A4-F32B-68253F15FCDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="399EF099-0694-A902-2384-6B6002D22430" name="Historyczny_krol_strzelcow_Zawodnik_FK">
+<createdBy>kamil</createdBy>
+<createdTime>2018-06-04 13:58:42 UTC</createdTime>
+<generatorID>0CD8255A-96D6-498D-FB4B-5A7BC798FF8C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D34BCD88-3122-B5D3-75C0-AB176EEF7902"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

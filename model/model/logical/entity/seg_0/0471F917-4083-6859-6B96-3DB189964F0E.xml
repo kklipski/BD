@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0471F917-4083-6859-6B96-3DB189964F0E" name="Mecz">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 19:38:25 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_meczu" id="0D6BE8DE-522F-7D6B-0E26-D474780FDB95">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 19:38:33 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_rozegrania" id="9AD05526-F34A-D07C-763E-3CF94F899F5E">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 19:39:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gole_gospodarz" id="5F3698BD-E71D-792B-5A1B-40057E70307C">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 19:39:21 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gole_gosc" id="A6988C7D-6704-A299-C69D-98AEE1873B35">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 19:39:34 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1DC3CA99-1D8E-A08D-F5A4-2296488EF48A" name="Mecz PK">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 19:38:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0D6BE8DE-522F-7D6B-0E26-D474780FDB95</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1D2537AD-54D9-51F6-ECCC-E5FD08C24B94" name="Zawodnik">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 19:34:38 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_zawodnika" id="431AB5AB-F029-BFD4-869D-CF922C8C88E9">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 19:34:46 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imie" id="A614FC38-F4E5-FEC1-A1E4-6EA106BCD94C">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 19:34:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwisko" id="004A9630-7B76-8306-9B24-FF4A4CD47595">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 19:35:05 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_druzyny1" id="141A8A17-CDEC-DAC7-9110-313518770721">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:01:15 UTC</createdTime>
+<generatorID>AE15AE6E-C51C-6241-7DBA-D1224CB4F939</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<referedAttribute>2D0FD993-E5CC-AF0B-BB53-C4DBB35D7565</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pozycja" id="014372F7-4C69-416B-673F-BD546E83BE9B">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 19:35:11 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numer_koszulki" id="A918CCDA-0F8C-BC4A-3A08-433F767A1B75">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 19:35:20 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wiek" id="27E5A166-6470-02E2-32B8-4990FD7985E4">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 19:35:58 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="narodowosc" id="6445BDC7-2642-51BD-574E-9CF1B269C05B">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 19:36:11 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gole" id="F2A5649D-10D9-AC5B-54F1-53775B03A867">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 19:36:24 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="asysty" id="B847E543-E994-C5BF-BEBB-47AAF32460A9">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 19:36:38 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zolte_kartki" id="E4A66C24-5955-9144-3C54-C6D06AD89E28">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 19:36:50 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="czerwone_kartki" id="196ADE81-71A8-1FE8-A873-CC698FBFF71E">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 19:36:59 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F85B2030-25C5-4141-E26D-AAF9CBC7399B" name="Zawodnik PK">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 19:34:53 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>431AB5AB-F029-BFD4-869D-CF922C8C88E9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

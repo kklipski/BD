@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="zostal_krolem_strzelcow" directorySegmentName="seg_0" id="0CD8255A-96D6-498D-FB4B-5A7BC798FF8C">
+<createdBy>kamil</createdBy>
+<createdTime>2018-06-04 13:57:25 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<sourcePk>F85B2030-25C5-4141-E26D-AAF9CBC7399B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1D2537AD-54D9-51F6-ECCC-E5FD08C24B94</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2D8C82FE-D50B-4A5F-2108-4515FF9048DF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

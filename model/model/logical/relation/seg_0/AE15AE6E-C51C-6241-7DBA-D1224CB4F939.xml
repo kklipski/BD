@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="gra_dla" directorySegmentName="seg_0" id="AE15AE6E-C51C-6241-7DBA-D1224CB4F939">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:01:15 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<sourcePk>B4193CD3-11D0-9471-5EBF-465DC96A7A96</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EC198609-76D4-D2C0-14F4-A96744E2E3DC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1D2537AD-54D9-51F6-ECCC-E5FD08C24B94</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

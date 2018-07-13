@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rozegrala" directorySegmentName="seg_0" id="0D264EB2-2EE1-555F-6B63-59D5C2CCAE3C">
+<createdBy>kamil</createdBy>
+<createdTime>2018-05-23 21:02:10 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="1B627D33-3B0C-A4C7-7F0E-64EF3DAEFE51" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>EC198609-76D4-D2C0-14F4-A96744E2E3DC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0471F917-4083-6859-6B96-3DB189964F0E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

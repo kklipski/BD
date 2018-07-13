@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CCDAA076-15A6-6BF2-B1B0-1E9BC197BFB8" containerWithKeyObject="9770DB2C-574A-0CF6-8C46-B328B83D1928" localFKIndex="399EF099-0694-A902-2384-6B6002D22430" name="Historyczny_krol_strzelcow_Zawodnik_FK">
+<createdBy>kamil</createdBy>
+<createdTime>2018-06-04 13:58:42 UTC</createdTime>
+<generatorID>0CD8255A-96D6-498D-FB4B-5A7BC798FF8C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>Zawodnik</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5CFA59BE-FEDE-614D-DE08-79558C493D57</referredTableID>
+<keyObject>ADEE7FF9-D25F-17A5-027C-E623DCF3AACE</keyObject>
+<referredKeyID>ADEE7FF9-D25F-17A5-027C-E623DCF3AACE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_zawodnika</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
